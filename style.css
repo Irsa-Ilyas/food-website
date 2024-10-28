@@ -87,7 +87,7 @@ body {
 }
 .bannerimg img {
   width: 100%;
-  height:auto;
+  /* height:auto; */
   object-fit: cover;
 }
 
@@ -102,23 +102,14 @@ body {
 
 /* image section  */
 .image-section {
-  max-width: 100%;
-  margin: 20px auto;
+  width: 100%;
   display: flex;
+  justify-content: space-around;
   flex-direction: row;
   flex-wrap: wrap;
   padding-left: 20px;
   padding-right: 20px;
 
-}
-.image-section .big {
-  width: 582px;
-}
-
-.cards {
-  display: flex;
-  padding-left: 10px;
-  flex-wrap: wrap;
 }
 .im1,
 .im2,
@@ -127,16 +118,9 @@ body {
   border: 1px solid #878787;
   padding: 5px;
   margin:10px;
+  width:350px;
+  height: auto;
 }
-.im2,
-.im4 {
-  margin-top: 30px;
-}
-.im3,
-.im4 {
-  margin-left: 20px;
-  margin-top: 30px;
-} 
 .p1 {
   margin-top: 60px;
   text-align: center;
@@ -278,11 +262,11 @@ input[type="submit"] {
     font-size: 18px;
   }
 }
-/* for smaller screen */
+/*  */
 @media (max-width: 480px) {
   .p1 {
     font-size: 24px;
-    margin-top: 40px;
+    /* margin-top: 40px; */
   }
   .p2 {
     font-size: 14px;
